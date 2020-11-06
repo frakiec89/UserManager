@@ -11,7 +11,6 @@ namespace UserManager
     {
         string writePath = "User.txt";
 
-
         public List<Student> Students { get; private set; }
 
         public ContrillerStudent()

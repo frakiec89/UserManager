@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace UserManager
 {
@@ -18,7 +15,7 @@ namespace UserManager
                 Console.WriteLine("Введите команду");
                 Console.WriteLine("* - для выхода");
                 Console.WriteLine("s - add User");
-                Console.WriteLine("del - add User");
+                Console.WriteLine("del - Удалить  пользователя");
 
                 Console.WriteLine();
                 string s = Console.ReadLine();
